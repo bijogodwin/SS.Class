@@ -1,0 +1,72 @@
+/* 
+The font family is copied from (Google fonts) webpage => in (CSS rules to specify families)
+*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* 
+<style>
+        
+   The below content is the between content, which is fully cutted from (index.html) and pasted here, to link the (CSS) features externally
+
+    </style>
+*/
+
+img {
+  width: 150px;
+  height: 150px;
+}
+/*
+To remove bullet points from unorder list, use (list-style=none) 
+*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 
+To change from vertical order to horizontal => (Display= inline-block)
+To insert background for the particular headings => (background)
+To have space in suthi ulla content => (padding) 
+To increase the font size => (font-size)
+      (we cant change the letter colour here, because the letter colour is given by Anchor Tag, so use the font color in "a")
+*/
+li {
+  display: inline-block;
+  background: green;
+  padding: 20px 60px;
+  font-size: 30px;
+}
+
+/* 
+To remove the underline from the links, normally we use "u or bold" , but here underlined because of Anchor tag, so we have to remove the underline from Anchor tag 
+*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* 
+This is used for the ID selector in the (index.html) file, so we use (# for ID)
+*/
+.footer {
+  color: black;
+}
+
+/* 
+This is used for the Class selector in the (index.html) file, so we use (. for Class)
+*/
+.fa-facebook {
+  color: green;
+  font-size: 40px;
+}
+.fa-instagram {
+  color: green;
+  font-size: 40px;
+}
+.fa-twitter {
+  color: green;
+  font-size: 40px;
+}
